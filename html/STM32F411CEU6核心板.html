@@ -1,6 +1,3 @@
----
-layout: false
----
 <!DOCTYPE html>
 <html lang="en">
 
@@ -740,7 +737,7 @@ a {
 
 
   </style>
-  <script type="text/javascript" >
+  <script type="text/javascript">
 ///////////////////////////////////////////////
 /*
   Split.js - v1.3.5
@@ -3447,8 +3444,7 @@ window.matchMedia("print").addListener(resizeAll);
           </label>
           <label class="menu-label">
             <div style="margin-left: 5px">Bom checkboxes</div>
-            <input id="bomCheckboxes" class="menu-textbox" type=text
-                   oninput="setBomCheckboxes(this.value)">
+            <input id="bomCheckboxes" class="menu-textbox" type="text" oninput="setBomCheckboxes(this.value)">
           </label>
           <label class="menu-label">
             <div style="margin-left: 5px">Darken when checked</div>
@@ -3462,35 +3458,23 @@ window.matchMedia("print").addListener(resizeAll);
           </label>
         </div>
       </div>
-      <div class="button-container hideonprint"
-           style="float: right; position: relative; top: 8px">
-        <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout('F')"
-                title="Front only">F
+      <div class="button-container hideonprint" style="float: right; position: relative; top: 8px">
+        <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout('F')" title="Front only">F
         </button>
-        <button id="fb-btn" class="middle-button" onclick="changeCanvasLayout('FB')"
-                title="Front and Back">FB
+        <button id="fb-btn" class="middle-button" onclick="changeCanvasLayout('FB')" title="Front and Back">FB
         </button>
-        <button id="bl-btn" class="right-most-button" onclick="changeCanvasLayout('B')"
-                title="Back only">B
+        <button id="bl-btn" class="right-most-button" onclick="changeCanvasLayout('B')" title="Back only">B
         </button>
       </div>
-      <div class="button-container hideonprint"
-           style="float: right; position: relative; top: 8px">
-        <button id="bom-btn" class="left-most-button" onclick="changeBomLayout('bom-only')"
-                title="BOM only"></button>
-        <button id="lr-btn" class="middle-button" onclick="changeBomLayout('left-right')"
-                title="BOM left, drawings right"></button>
-        <button id="tb-btn" class="right-most-button" onclick="changeBomLayout('top-bottom')"
-                title="BOM top, drawings bot"></button>
+      <div class="button-container hideonprint" style="float: right; position: relative; top: 8px">
+        <button id="bom-btn" class="left-most-button" onclick="changeBomLayout('bom-only')" title="BOM only"></button>
+        <button id="lr-btn" class="middle-button" onclick="changeBomLayout('left-right')" title="BOM left, drawings right"></button>
+        <button id="tb-btn" class="right-most-button" onclick="changeBomLayout('top-bottom')" title="BOM top, drawings bot"></button>
       </div>
-      <div class="button-container hideonprint"
-           style="float: right; position: relative; top: 8px">
-        <button id="bom-grouped-btn" class="left-most-button" onclick="changeBomMode('grouped')"
-                title="Grouped BOM"></button>
-        <button id="bom-ungrouped-btn" class="middle-button" onclick="changeBomMode('ungrouped')"
-                title="Ungrouped BOM"></button>
-        <button id="bom-netlist-btn" class="right-most-button" onclick="changeBomMode('netlist')"
-                title="Netlist"></button>
+      <div class="button-container hideonprint" style="float: right; position: relative; top: 8px">
+        <button id="bom-grouped-btn" class="left-most-button" onclick="changeBomMode('grouped')" title="Grouped BOM"></button>
+        <button id="bom-ungrouped-btn" class="middle-button" onclick="changeBomMode('ungrouped')" title="Ungrouped BOM"></button>
+        <button id="bom-netlist-btn" class="right-most-button" onclick="changeBomMode('netlist')" title="Netlist"></button>
       </div>
       <div class="hideonprint menu" style="float: right; top: 8px;">
         <button class="statsbtn"></button>
@@ -3523,15 +3507,15 @@ window.matchMedia("print").addListener(resizeAll);
               </tr>
               <tr>
                 <td>TH pads</td>
-                <td colspan=3 id="stats-th-pads">~</td>
+                <td colspan="3" id="stats-th-pads">~</td>
               </tr>
             </tbody>
           </table>
           <table class="stats">
-            <col width="40%"/><col />
+            <col width="40%"><col>
             <tbody id="checkbox-stats">
               <tr>
-                <td colspan=2 style="border-top: 0">Checkboxes</td>
+                <td colspan="2" style="border-top: 0">Checkboxes</td>
               </tr>
             </tbody>
           </table>
@@ -3543,11 +3527,9 @@ window.matchMedia("print").addListener(resizeAll);
           <div class="menu-label menu-label-top">
             <div style="margin-left: 5px;">Save board image</div>
             <div class="flexbox">
-              <input id="render-save-width" class="menu-textbox" type="text" value="1000" placeholder="Width"
-                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
+              <input id="render-save-width" class="menu-textbox" type="text" value="1000" placeholder="Width" style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
               <span>X</span>
-              <input id="render-save-height" class="menu-textbox" type="text" value="1000" placeholder="Height"
-                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
+              <input id="render-save-height" class="menu-textbox" type="text" value="1000" placeholder="Height" style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
             </div>
             <label>
               <input id="render-save-transparent" type="checkbox">
@@ -3594,13 +3576,10 @@ window.matchMedia("print").addListener(resizeAll);
   <div id="bot" class="split" style="height: calc(100% - 80px)">
     <div id="bomdiv" class="split split-horizontal">
       <div style="width: 100%">
-        <input id="reflookup" class="textbox searchbox reflookup hideonprint" type="text" placeholder="Ref lookup"
-               oninput="updateRefLookup(this.value)">
-        <input id="filter" class="textbox searchbox filter hideonprint" type="text" placeholder="Filter"
-               oninput="updateFilter(this.value)">
+        <input id="reflookup" class="textbox searchbox reflookup hideonprint" type="text" placeholder="Ref lookup" oninput="updateRefLookup(this.value)">
+        <input id="filter" class="textbox searchbox filter hideonprint" type="text" placeholder="Filter" oninput="updateFilter(this.value)">
         <div class="button-container hideonprint" style="float: left; margin: 0;">
-          <button id="copy" title="Copy bom table to clipboard"
-               onclick="copyToClipboard()"></button>
+          <button id="copy" title="Copy bom table to clipboard" onclick="copyToClipboard()"></button>
         </div>
       </div>
       <div id="dbg"></div>
