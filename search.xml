@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Tanner Install</title>
+      <link href="/2022/02/26/Install/"/>
+      <url>/2022/02/26/Install/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Tanner-Install"><a href="#Tanner-Install" class="headerlink" title="Tanner Install"></a>Tanner Install</h1><h2 id="一、以管理员身份运行setup-exe"><a href="#一、以管理员身份运行setup-exe" class="headerlink" title="一、以管理员身份运行setup.exe"></a>一、以管理员身份运行setup.exe</h2><p><img src="/2022/02/26/Install/1.png" alt="1"></p><h2 id="二、选择-Local-license"><a href="#二、选择-Local-license" class="headerlink" title="二、选择 Local license"></a>二、选择 Local license</h2><p><img src="/2022/02/26/Install/2.png" alt="2"></p><p>接下来一路默认</p><h2 id="三、选择-Install"><a href="#三、选择-Install" class="headerlink" title="三、选择 Install"></a>三、选择 Install</h2><p><img src="/2022/02/26/Install/3.png" alt="3"></p><p>继续一路默认</p><p>User name 和 Organization 随便填写即可</p><p><img src="/2022/02/26/Install/4.png" alt="4"></p><p>接下来设置安装路径，注意：安装路径不可有中文！！</p><p><img src="/2022/02/26/Install/5.png" alt="5"></p><p>继续默认</p><p>点击 Install 开始安装 </p><p><img src="/2022/02/26/Install/6.png" alt="6"></p><h2 id="四、安装-Tanner-EDA-Utilites"><a href="#四、安装-Tanner-EDA-Utilites" class="headerlink" title="四、安装 Tanner EDA Utilites"></a>四、安装 Tanner EDA Utilites</h2><p><img src="/2022/02/26/Install/7.png" alt="7"></p><p>一路Next，安装步骤参考上一环节</p><p>注意安装路径不要有中文！！！</p><p><img src="/2022/02/26/Install/8.png" alt="8"></p><p>继续默认</p><h2 id="五、安装-System-Driver"><a href="#五、安装-System-Driver" class="headerlink" title="五、安装 System Driver"></a>五、安装 System Driver</h2><p>一路默认 Next 即可</p><p>接着选择本地许可</p><p><img src="/2022/02/26/Install/9.png" alt="9"></p><h2 id="六、解压-patch-rar"><a href="#六、解压-patch-rar" class="headerlink" title="六、解压 patch.rar"></a>六、解压 patch.rar</h2><p>进入 Crack 文件夹</p><p><img src="/2022/02/26/Install/10.png" alt="10"></p><p><img src="/2022/02/26/Install/11.png" alt="11"></p><p>解压 patch.rar 并将解压出来的文件复制粘贴至安装目录(我这里是D:\Tanner EDA\Tanner Tools v16.0)</p><p><img src="/2022/02/26/Install/12.png" alt="12"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Maix_Dock笔记（一）</title>
       <link href="/2022/01/19/Maix-Dock%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2022/01/19/Maix-Dock%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
