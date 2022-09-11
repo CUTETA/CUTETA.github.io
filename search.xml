@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>Task-SmartHome</title>
+      <link href="/2022/09/11/Task-SmartHome/"/>
+      <url>/2022/09/11/Task-SmartHome/</url>
+      
+        <content type="html"><![CDATA[<h1 id="SmartHome"><a href="#SmartHome" class="headerlink" title="SmartHome"></a>SmartHome</h1><p>最近折腾毕设时又有了一个小 idea，整个智能家居中控来取代传统的按键开关和空调遥控器等。如图，颜值主义者表示还阔以 ( •̀ ω •́ )✧ </p><p><img src="/2022/09/11/Task-SmartHome/Task_SmartHome.jpg" alt="Task_SmartHome"></p><p>该项目基于全志V3X（晕哥定制版全志V3S），参考了 Yuzuki 大佬的 RGB 电路设计。V3X 芯片参数如下：</p><blockquote><ul><li>Arm A7</li><li>DDR3 128MB</li><li>新增 LVDS 接口</li><li><p>去除 MIPI Camera 接口</p></li><li><p>引出SDC2，可接 8bit eMMC</p></li></ul></blockquote><p>确定了主芯片，接下来就是 PCB 设计了，不是高速板随意拉拉线完事儿&lt;(`^′)&gt;</p><p><img src="/2022/09/11/Task-SmartHome/2.jpg" alt="2"></p><blockquote><ul><li>板载 RGB 驱动</li><li>板载 CH340 </li><li>板载 eMMC</li><li>板载 WiFI 和2.4G 天线</li><li>板载 3.5mm 耳机座</li><li>FPC 引出 6个 GPIO =&gt; UART1_TX | UART1_RX  | PB5 | PB4</li></ul></blockquote><p>基于 LVGL 设计 ui 界面（后期可能会更换 QT 设计）</p><p><img src="/2022/09/11/Task-SmartHome/3.png" alt="3"></p><p>未完待续</p><p>2022/09/11</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Task_F1C100S</title>
       <link href="/2022/02/27/Task-F1C100S/"/>
       <url>/2022/02/27/Task-F1C100S/</url>
